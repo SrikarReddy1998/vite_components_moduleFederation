@@ -11,8 +11,8 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         // "./App": "./src/App.tsx", // we can also export the entire repo or route it in container as required
-        "./ExposedButton": "./src/components/ui/button.tsx", //this button contains shad cn button and tailwind is required, so it wasnt visible in container app
-        "./ExposingButton": "./src/exposingButton.tsx", // just a regular button with embedded css
+        // "./ExposedButton": "./src/components/ui/button.tsx", //this button contains shad cn button and tailwind is required, so it wasnt visible in container app
+        "./ExposingButton": "./src/App.tsx", // just a regular button with embedded css
       },
       shared: ["react", "react-dom"],
     }),
