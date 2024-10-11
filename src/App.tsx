@@ -1,8 +1,8 @@
 import { Suspense } from "react";
-
 import "./App.css";
-// import { Button } from "./components/ui/button";
 import { createRoot } from "react-dom/client";
+// import { Button } from "./components/ui/button";
+
 // import { createRoot } from "react-dom/client";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div>hi, this is sharing button from components repo</div>
+      <div>hi, this is sharing button from components repo's</div>
       <button>Button from REACT</button>
       {/* <Button onClick={() => setCount((count) => count + 1)}>
         shad button
